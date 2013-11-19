@@ -1,0 +1,220 @@
+/*4db725407d654e114a0a97acaa490a7d184116d5*//*.x-main-page  .intro {*/
+    /*margin-top: 20%;*/
+/*}*/
+
+/*.intro .logo, .intro .tagline {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.intro .logo {*/
+    /*color: #004c99;*/
+    /*font-size: 2em;*/
+
+    /*background-color: white;*/
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*-ms-border-radius: 10px;*/
+    /*-o-border-radius: 10px;*/
+    /*border-radius: 60px;*/
+    /*margin: 0.5em auto;*/
+    /*display: block;*/
+    /*padding: 20px;*/
+    /*width: 40%;*/
+/*}*/
+
+/*.intro .tagline {*/
+    /*color: #666;*/
+    /*font-size: 1em;*/
+/*}*/
+
+.mainLogoBox{
+    background-image: url("../images/time.jpg");
+    background-position: center;
+    height: 180px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    background-color: #FFF;
+    /*background-size: 520px 146px;*/
+}
+
+.logoBox{
+    background-image: url("../images/time.jpg");
+    background-position: top;
+    height: 115px;
+    width: 100%;
+    /*height: 163px;
+    width: 198px;*/
+    /*height: 132px;*/
+    /*width: 160px;*/
+    /*background-size: 160px 132px;*/
+
+    /*position: absolute;*/
+    top: 0;
+    /*right: 0;*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.homePageCls .x-mask, .payOptionPage .x-mask{
+    display: none !important;
+}
+.homePageCls .x-picker{
+    position: relative !important;
+    top: 195px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.payOptionPage .x-picker{
+    top: 170px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.homePageCls .x-picker .x-picker-inner, .payOptionPage .x-picker .x-picker-inner{
+    margin: 0;
+}
+
+.x-picker-bar{
+    border-top: 0.12em solid #adadad;
+    border-bottom: 0.12em solid #999;
+
+    background-image: none;
+    background-color: rgba(135,135,135,0.5);
+
+}
+
+.detailsHome{
+    position: absolute;
+    width: 100%;
+    top:430px;
+}
+
+.menuPicker{
+    /*width: 90%;*/
+    background-image: none;
+    background-color: #666;
+    border-top-color: #666;
+}
+
+.trafficBox, .messageBox{
+    padding: 15px;
+}
+
+.trafficBox .title, .messageBox .title{
+    border-bottom: 0.12em solid #8cc9db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.trafficBox .content, .messageBox .content{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding: 10px 8px;
+}
+
+.formField{
+    background: none;
+    padding: 12px;
+}
+
+.formField .x-form-label{
+    background-color: transparent;
+    font-size: 1.1em;
+
+}
+
+.formField .x-toggle{
+    width: 4.9em;
+    position: relative;
+    top: 4px;
+}
+
+.formField .x-toggle-on{
+    background-color: #386ed1;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #314d87), color-stop(10%, #2a62c9), color-stop(65%, #386ed1), color-stop(100%, #386ed1));
+    background-image: -webkit-linear-gradient(top, #314d87,#2a62c9 10%,#386ed1 65%,#386ed1);
+    background-image: -moz-linear-gradient(top, #314d87,#2a62c9 10%,#386ed1 65%,#386ed1);
+    background-image: -o-linear-gradient(top, #314d87,#2a62c9 10%,#386ed1 65%,#386ed1);
+}
+
+.formField .x-field{
+    background: none;
+}
+
+.formField input.x-input-text,.formField input.x-input-number,.formField input.x-input-email, .formField input.x-input-password{
+    background-color: transparent;
+    border-bottom: 0.09em solid #bbb;
+}
+
+.formField .x-form-label span, .termsOfUseBox label{
+    font-size: .7em;
+    color: #444;
+}
+
+.termsOfUseBox{
+    padding: 30px 15px 30px 15px;
+}
+.buttonBar{
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.buttonStandard{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+    background-color: #00AF26 !important;
+    background-image: none !important;
+    border-color: #00AF26  !important;
+}
+.buttonStandard .x-button-pressing{
+    background-color: #666 !important;
+}
+
+#appLoadingIndicator img {
+    width: 100%;
+    margin: 50% 0 0;
+}
+/* code author subhashis*/
+.HomePageLabel {
+ color: #fff !important;
+ 
+}
+
+.innerPageLabel {
+    color: #fff !important;
+    margin: 10px 10px 10px 10px;
+}
+
+.innerPageLabel span {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.buttonStandardred{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+    background-color: #E10000 !important;
+    background-image: none !important;
+    border-color: #E10000  !important;
+}
+
+.buttonAddCase{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+
+    background-color: #004c99 !important;
+    background-image: none !important;
+    border-color: #004c99  !important;
+}
+.x-layout-card-item {
+    background: #000000;
+}
+
