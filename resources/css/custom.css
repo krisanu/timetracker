@@ -1,4 +1,4 @@
-/*4db725407d654e114a0a97acaa490a7d184116d5*//*.x-main-page  .intro {*/
+/*14aeadbb688aa180a4e8dd244ad25fd04a046d59*//*.x-main-page  .intro {*/
     /*margin-top: 20%;*/
 /*}*/
 
@@ -218,3 +218,6 @@
     background: #000000;
 }
 
+.x-form .x-scroll-container{
+background-color: black;
+}

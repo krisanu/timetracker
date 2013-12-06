@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <title>TimeTracker</title>
     <style type="text/css">
-            /**
-            * Example of an initial loading indicator.
-            * It is recommended to keep this as minimal as possible to provide instant feedback
-            * while other resources are still being loaded for the first time
-            */
         html, body {
             height: 100%;
             background-color: white;
@@ -27,9 +22,12 @@
             function(b){i(a,b)})}var d=b.getAsset(a.uri),e=a.path,f=a.update;!d||!f||null===w(a.key)||"delta"!=f?c():q("deltas/"+e+"/"+d.version+".json",function(b){try{var c=a,d;var e=w(a.key),f=C(b),b=[],g,h,j;if(0===f.length)d=e;else{h=0;for(j=f.length;h<j;h++)g=f[h],"number"===typeof g?b.push(e.substring(g,g+f[++h])):b.push(g);d=b.join("")}i(c,d)}catch(k){H("Malformed delta content received for "+a.uri)}},c)})})}var h=[],g=!1,j=function(){},m=function(){k.swapCache();g=!0;j()},l;J("message",G,!1);if(k.status==
             k.UPDATEREADY)m();else if(k.status==k.CHECKING||k.status==k.DOWNLOADING)k.onupdateready=m,k.onnoupdate=k.onobsolete=function(){j()};!1!==navigator.onLine?e():z("online",e,!1)}var j=b.assets,g=j.length,f;r=b;z("message",G,!1);0==g?i():j.forEach(function(a){var b=w(a.key);null===b?F(a,function(b){a.remote||t(a.key,b);d(a,b)},function(){d(a,"")}):d(a,b)})}function K(b){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var d=document.createElement("style");d.appendChild(document.createTextNode("@media screen and (orientation: portrait) {@-ms-viewport {width: 320px !important;}}@media screen and (orientation: landscape) {@-ms-viewport {width: 560px !important;}}"));
         document.getElementsByTagName("head")[0].appendChild(d)}d=/MSIE 10/.test(navigator.userAgent)?/complete|loaded/:/interactive|complete|loaded/;null!==m.readyState.match(d)?y(b):z("DOMContentLoaded",function(){navigator.standalone?setTimeout(function(){setTimeout(function(){y(b)},1)},1):setTimeout(function(){y(b)},1)},!1)}var E=function(){},v=[],m=l.document,u=m.head,z=l.addEventListener,J=l.removeEventListener,C=JSON.parse,B=m.createElement("a"),A=m.location,D=A.origin+A.pathname+A.search,p="app.json",
-            I=!1,r,k,o;try{o=l.localStorage,k=l.applicationCache}catch(N){}if("undefined"===typeof n)var n=l.Ext={};n.blink=function(b){var d=w(b.id+"-"+D+p);x("viewport","width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");x("apple-mobile-web-app-capable","yes");x("apple-touch-fullscreen","yes");d?(b=new s(d),K(b)):q(p,function(c){b=new s(c);b.store();K(b)})}})(this);;Ext.blink({"id":"602528de-cd06-402e-bb8d-d1e725f14f78"})</script>
+            I=!1,r,k,o;try{o=l.localStorage,k=l.applicationCache}catch(N){}if("undefined"===typeof n)var n=l.Ext={};n.blink=function(b){var d=w(b.id+"-"+D+p);x("viewport","width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");x("apple-mobile-web-app-capable","yes");x("apple-touch-fullscreen","yes");d?(b=new s(d),K(b)):q(p,function(c){b=new s(c);b.store();K(b)})}})(this);;Ext.blink({"id":"57ffdb9d-46a1-4a35-940d-1024af3171ee"})</script>
+    <link href="resources/css/custom.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8" src="cordova-2.5.0.js"></script>
 </head>
 <body>
+
 <div id="appLoadingIndicator">
     <img src="resources/images/time.jpg" />
 </div>
