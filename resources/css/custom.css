@@ -1,0 +1,134 @@
+/*c7e312d20f3ed6ccede79125ce4489b714105ded*/.x-layout-card-item {
+    background-color: #ffffff !important;
+}
+
+/* FOR SIHN IN PAGE */
+.signInTextbox{
+    border: 1px solid #000000;
+}
+.signinHeading{
+    font-size: 30px;
+    text-align:center;
+}
+
+.signinPage, .clockinPage, .clockoutPage{
+    padding: 2%;
+}
+
+.mainViewStyle {
+    padding: 6%;
+}
+
+.signInBttn{
+background-image: url(../images/signin.png);
+background-repeat:no-repeat;
+background-size: 100%;
+-webkit-box-shadow: 3px 3px 5px #888888;
+border: 1px solid blue;
+}
+
+/* FOR TITLE BAR */
+
+.logopanel{
+background-image: url(../images/logo.png);
+background-repeat:no-repeat;
+background-position:left; 
+}
+
+.titlepanel{
+font-size: auto;
+/*text-align:center;*/
+    margin-left: 35%;
+font-style:italic;
+}
+
+/* FOR CLOCK IN PAGE */
+.clockInBttn{
+ -webkit-border-radius: 0;
+ border-radius: 0;  
+ background-image: url(../images/Clock_In.png) !important;
+ background-size: 102%;
+}
+
+/* FOR CLOCK OUT PAGE */
+.statusBox{
+background-image: url(../images/titlee.png);
+background-repeat:repeat-xy;
+-webkit-box-shadow: 4px 4px 5px #888888;
+
+}
+
+.dispalyPanel{
+background-image: url(../images/midBlockk.png);
+background-repeat:repeat-xy;
+background-size: 100%;
+-webkit-box-shadow: 4px 4px 5px #888888;
+color: #fff;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.clockOutBttn{
+ -webkit-border-radius: 0;
+ border-radius: 0;  
+ background-image: url(../images/Clock_Out.png) !important;
+ background-size: 102%;
+}
+
+.statusText{
+color: #fff;
+}
+.invalidEmail, .invalidPass{
+color: rgb(255,0,0);
+}
+
+.CustomTooltip{
+position: absolute !important;
+}
+/* For add button */
+.buttonAddCase{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: #228b22 !important;
+    background-image: none !important;
+    border-color: #004c99  !important;
+}
+
+
+#popmenu li{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: -20px;
+}
+
+.popup{
+    background-color: none !important;
+}
+
+@media only screen and (min-width: 363px) {
+
+.runningClock{
+    font-size: 130%;
+    text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 330px) {
+
+    .runningClock{
+        font-size: 125%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 365px) {
+
+    .runningClock{
+        font-size: 135%;
+        text-align: center;
+    }
+
+}
+
+
