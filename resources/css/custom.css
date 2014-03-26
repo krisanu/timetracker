@@ -1,0 +1,182 @@
+/*1a0247873d27a47f5d1f19ef3d927f68d89c0e56*/.x-layout-card-item {
+    background-color: #ffffff !important;
+}
+
+/* FOR SIHN IN PAGE */
+.signInTextbox{
+    border: 1px solid #000000;
+}
+.signinHeading{
+    font-size: 30px;
+    text-align:center;
+}
+
+.signinPage, .clockinPage, .clockoutPage{
+    padding: 2%;
+    margin: 2% 2% 2% 2%;
+}
+
+.mainViewStyle {
+    padding: 6%;
+}
+
+.signInBttn{
+background-image: url(../images/signin.png);
+background-repeat:no-repeat;
+background-size: 100%;
+-webkit-box-shadow: 3px 3px 5px #888888;
+border: 1px solid blue;
+}
+
+/* FOR TITLE BAR */
+
+.logopanel{
+background-image: url(../images/logo.png);
+background-repeat:no-repeat;
+background-position:left; 
+}
+
+.titlepanel{
+font-size: auto;
+/*text-align:center;*/
+    margin-left: 35%;
+font-style:italic;
+}
+
+/* FOR CLOCK IN PAGE */
+.clockInBttn{
+ -webkit-border-radius: 0;
+ border-radius: 0;  
+ background-image: url(../images/Clock_In.png) !important;
+ background-size: 102%;
+}
+
+/* FOR CLOCK OUT PAGE */
+.statusBox{
+background-image: url(../images/titlee.png);
+background-repeat:repeat-xy;
+-webkit-box-shadow: 4px 4px 5px #888888;
+
+}
+
+.dispalyPanel{
+background-image: url(../images/midBlockk.png);
+background-repeat:repeat-xy;
+background-size: 100%;
+-webkit-box-shadow: 4px 4px 5px #888888;
+color: #fff;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
+.clockOutBttn{
+ -webkit-border-radius: 0;
+ border-radius: 0;  
+ background-image: url(../images/Clock_Out.png) !important;
+ background-size: 102%;
+}
+
+.statusText{
+color: #fff;
+font-size: 0.8em;
+}
+.invalidEmail, .invalidPass{
+color: rgb(255,0,0);
+}
+
+.CustomTooltip{
+position: absolute !important;
+}
+
+.buttonExpenses{
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: green !important;
+    border-color: #004c99  !important;
+}
+
+.buttonAddCase{
+ background-image: url(../images/add.png) !important;
+ background-size: 150%;
+}
+
+#popmenu li{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: -20px;
+}
+
+.popup{
+    background-color: none !important;
+}
+
+
+@media only screen and (max-width: 270px) {
+
+    .runningClock{
+        font-size: 95%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 271px) and (max-width: 300px) {
+
+    .runningClock{
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 319px) {
+
+    .runningClock{
+        font-size: 112%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+
+    .runningClock{
+        font-size: 119%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 375px) {
+
+    .runningClock{
+        font-size: 128%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+
+    .runningClock{
+        font-size: 135%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 401px) {
+
+    .runningClock{
+        font-size: 140%;
+        text-align: center;
+    }
+
+}
+
+.x-msgbox {
+    background-color: #fff !important;
+    border: 4px solid #808080 !important;
+}
+.x-msgbox-text {
+     color:#000 !important;
+}
+
+.x-title .x-innerhtml{
+    color:#000 !important;
+}
